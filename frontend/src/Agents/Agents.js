@@ -4,7 +4,7 @@ import './Agents.css';
 class Agents extends Component {
   render() {
     return (
-      <div></div>
+      <div className='agents'></div>
     );
   }
 };
