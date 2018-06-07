@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Route, NavLink } from 'react-router-dom';
+import Agents from '../Agents/Agents';
 import './Header.css';
 
 class Header extends Component {
@@ -19,7 +20,7 @@ class Header extends Component {
           <NavLink to='/agents' className='nav'>Contact</NavLink>
         </div>
         <div>
-          <Route exact path='/agents'/>
+          <Route exact path='/agents' component={Agents}/>
           <Route exact path='/properties'/>
           <Route exact path='/buyerssellers'/>
           <Route exact path='/communities'/>
