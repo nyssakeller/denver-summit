@@ -1,8 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300");
+
 .header {
-  background-color: grey;
-  padding: 20px;
+  background-color: rgba(245, 245, 245, 0.884);
+  padding: 20px 60px 5px 60px;
+}
+
+.title-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#kw {
+  height: 80px;
+  width: 280px;
+}
+
+h1 {
+  color: navy;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+}
+
+.nav-links {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding-top: 10px;
 }
 
 .nav {
-  margin: 10px;
+  color: grey;
+  font-size: 18px;
+  font-weight: 300;
+  margin-right: 160px;
+  text-decoration: none;
 }

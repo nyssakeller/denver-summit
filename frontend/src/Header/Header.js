@@ -6,7 +6,10 @@ class Header extends Component {
   render() {
     return (
       <div className='header'>
-        <h1>Denver Summit Group</h1>
+        <div className='title-img'>
+          <h1>DENVER SUMMIT GROUP</h1>
+          <img id='kw' src='https://bt-wpstatic.freetls.fastly.net/wp-content/blogs.dir/3568/files/2017/02/homepage-logo.png'/>
+        </div>
         <div className='nav-links'>
           <NavLink to='/agents' className='nav'>Agents</NavLink>
           <NavLink to='/agents' className='nav'>Properties</NavLink>
