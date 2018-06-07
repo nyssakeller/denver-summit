@@ -2,7 +2,8 @@
 
 .header {
   background-color: rgba(245, 245, 245, 0.884);
-  padding: 20px 60px 5px 60px;
+  box-shadow: 0 4px 2px -2px rgb(178, 178, 178, 0.5);
+  padding: 10px 60px 5px 60px;
 }
 
 .title-img {
@@ -24,7 +25,7 @@ h1 {
 
 .nav-links {
   margin-bottom: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
   padding-top: 10px;
 }
 
@@ -34,4 +35,9 @@ h1 {
   font-weight: 300;
   margin-right: 160px;
   text-decoration: none;
+}
+
+.component {
+  position: absolute;
+  top: 200px;
 }
