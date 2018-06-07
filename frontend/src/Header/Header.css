@@ -36,3 +36,8 @@ h1 {
   margin-right: 160px;
   text-decoration: none;
 }
+
+.component {
+  position: absolute;
+  top: 200px;
+}
